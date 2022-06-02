@@ -1,0 +1,24 @@
+
+.Name{
+  background-color: #f0f0f0;
+  border-radius: 6px;
+  padding: 1rem;
+}
+
+.titulo-name{
+  margin: 1rem 0;
+}
+
+input, select{
+  border: 2px solid #dddddd !important;
+  background-color: #f0f0f0 !important;
+  height: 50px;
+}
+
+input::placeholder, select::placeholder {
+  color: black !important;
+}
+
+input:focus , select:focus{
+  box-shadow: none !important;
+}
